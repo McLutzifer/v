@@ -22,6 +22,14 @@ fn main() {
 	num_txt = int(num_txt)
 	println(num_txt)
 
+	// change variables
+	mut c := 0
+	mut d := 1
+	println('$c, $d')
+	c, d = d, c
+	println('$c, $d')
+
+
 }
 //------------------end main-----------------
 
