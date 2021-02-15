@@ -34,3 +34,6 @@ fn sum(a ...int) int {
 	}
 	return total
 }
+
+pub fn public_function() {
+}
