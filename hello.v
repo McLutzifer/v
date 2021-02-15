@@ -17,6 +17,10 @@ fn main() {
 	large_number := i64(99999999)
 	println(large_number)
 
+	//Type conversion
+	mut num_txt := 20.9
+	num_txt = int(num_txt)
+	println(num_txt)
 
 }
 //------------------end main-----------------
