@@ -46,6 +46,9 @@ fn main() {
 	// STRINGS
 
 	name := 'Bob'
+	println(name.len)
+	println(name[0])
+	println(name[1..3])
 
 }
 //------------------end main-----------------
