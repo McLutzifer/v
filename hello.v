@@ -11,6 +11,9 @@ fn main() {
 	println(sum(1))
 	println(sum(2,3,4))
 
+	nums := [2, 3, 4]
+	println(sum(...nums))
+
 
 }
 //------------------end main-----------------
