@@ -14,6 +14,9 @@ fn main() {
 	nums := [2, 3, 4]
 	println(sum(...nums))
 
+	large_number := i64(99999999)
+	println(large_number)
+
 
 }
 //------------------end main-----------------
