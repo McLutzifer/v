@@ -6,6 +6,12 @@ fn main() {
 	a, b := foo()
 	println(a)
 	println(b)
+
+	println("sum:")
+	println(sum(1))
+	println(sum(2,3,4))
+
+
 }
 //------------------end main-----------------
 
@@ -16,4 +22,12 @@ fn add(x int, y int) int {
 
 fn foo() (int, int) {
 	return 2, 3
+}
+
+fn sum(a ...int) int {
+	mut total := 0
+	for x in a {
+		total += x
+	}
+	return total
 }
