@@ -29,6 +29,23 @@ fn main() {
 	c, d = d, c
 	println('$c, $d')
 
+	/*
+		// PRIMITVE TYPES
+
+		bool
+		string
+		i8 i16 int i64
+		byte u16 u32 u64
+		rune // unicode
+		f32 f64
+		byteptr, voidptr, charptr, size_t // mostly for C inteportability
+		any // like C's void or Go's interface{}
+	*/
+
+
+	// STRINGS
+
+	name := 'Bob'
 
 }
 //------------------end main-----------------
